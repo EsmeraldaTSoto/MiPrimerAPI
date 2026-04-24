@@ -20,22 +20,28 @@ API REST desarrollada en ASP.NET Core como proyecto de aprendizaje dividido en t
 
 ```
 MiPrimerAPI/
+│
 ├── Controllers/
 │   ├── ProductController.cs
 │   └── ExternalController.cs
+│
 ├── Data/
 │   └── AppDbContext.cs
-├── migrations/
+│
+├── Migrations/
+│
 ├── Models/
 │   ├── Product.cs
-│   ├── User.cs
-│   └── UserResponse.cs
+│   └── User.cs
+│
 ├── Repositories/
 │   ├── IProductRepository.cs
 │   └── ProductRepository.cs
+│
 ├── Services/
 │   ├── ProductService.cs
 │   └── ExternalApiService.cs
+│
 ├── appsettings.json
 └── Program.cs
 ```
