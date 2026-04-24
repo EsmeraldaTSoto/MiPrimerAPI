@@ -17,6 +17,11 @@ builder.Services.AddDbContext<AppDbContext>(options =>
 builder.Services.AddScoped<IProductRepository, ProductRepository>();
 builder.Services.AddScoped<ProductService>();
 
+// ── Integrante 3: API Externa ──────────────────────────────────────────────
+// Registramos HttpClient tipado para ExternalApiService
+builder.Services.AddHttpClient<ExternalApiService>();
+// ──────────────────────────────────────────────────────────────────────────
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
