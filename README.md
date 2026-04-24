@@ -52,6 +52,9 @@ MiPrimerAPI/
 ├── appsettings.json
 ├── appsettings.Development.json
 ├── MiPrimerAPI.csproj
+├── MiPrimerAPI.csproj.user
+├── MiPrimerAPI.http
+├── MiPrimerAPI.slnx
 ├── Program.cs
 └── WeatherForecast.cs
 ```
