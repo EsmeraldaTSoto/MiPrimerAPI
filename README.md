@@ -23,16 +23,23 @@ MiPrimerAPI/
 │
 ├── Controllers/
 │   ├── ProductController.cs
-│   └── ExternalController.cs
+│   ├── ExternalController.cs
+│   └── WeatherForecastController.cs
 │
 ├── Data/
 │   └── AppDbContext.cs
 │
 ├── Migrations/
+│   ├── 20260422214317_InitialCreate.cs
+│   ├── 20260422214317_InitialCreate.Designer.cs
+│   └── AppDbContextModelSnapshot.cs
 │
 ├── Models/
 │   ├── Product.cs
 │   └── User.cs
+│
+├── Properties/
+│   └── launchSettings.json
 │
 ├── Repositories/
 │   ├── IProductRepository.cs
@@ -43,5 +50,8 @@ MiPrimerAPI/
 │   └── ExternalApiService.cs
 │
 ├── appsettings.json
-└── Program.cs
+├── appsettings.Development.json
+├── MiPrimerAPI.csproj
+├── Program.cs
+└── WeatherForecast.cs
 ```
